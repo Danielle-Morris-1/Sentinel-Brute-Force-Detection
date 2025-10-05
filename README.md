@@ -115,16 +115,6 @@ The recovery effort focused on removing the root cause vulnerability (public-fac
 * **Geo-blocking Implemented:** Login attempts originating from identified **high-risk geolocations** were blocked at the firewall/gateway level to further reduce the external attack surface.
 * **System Verification:** The VMs were successfully restored from isolation once the NSG changes and account hardening were validated, and their services were verified to be functioning normally under the new security configuration.
 
-### 3.4 Closure
-
-The incident was formally closed in Sentinel.
-
-<img width="345" height="261" alt="image" src="https://github.com/user-attachments/assets/6812ea41-f9f9-4ae1-82f9-b94f8d867226" />
-
-**Closure Rationale:**
-Evidence of a high-volume brute force attempt was found, confirming a **True Positive** for suspicious activity. The attack was unsuccessful, and all necessary containment, eradication, and preventative measures (NSG lockdown, MFA, and policy proposals) have been implemented to mitigate the risk of recurrence.
-
-
 ## Phase 4: Post-Incident Activity 
 
 This final phase focuses on learning from the incident, ensuring documentation is complete, and implementing long-term policy changes to prevent similar events in the future.
@@ -136,6 +126,14 @@ This final phase focuses on learning from the incident, ensuring documentation i
 * **Detection Improvement:** The brute-force detection rule (Sentinel Scheduled Query Rule) was reviewed and confirmed to be effective (True Positive). No immediate tuning was required for the rule itself.
 * **Process Improvement:** The response confirmed the effectiveness of **MDE** isolation and **NSG** hardening as rapid containment strategies.
 
+### 4.2 Closure
+
+The incident was formally closed in Sentinel.
+
+<img width="345" height="261" alt="image" src="https://github.com/user-attachments/assets/6812ea41-f9f9-4ae1-82f9-b94f8d867226" />
+
+**Closure Rationale:**
+Evidence of a high-volume brute force attempt was found, confirming a **True Positive** for suspicious activity. The attack was unsuccessful, and all necessary containment, eradication, and preventative measures (NSG lockdown, MFA, and policy proposals) have been implemented to mitigate the risk of recurrence.
 
 ---
 
