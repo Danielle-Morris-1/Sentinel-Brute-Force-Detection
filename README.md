@@ -137,4 +137,17 @@ Evidence of a high-volume brute force attempt was found, confirming a **True Pos
 
 ---
 
+## 🚀 Project Status
+
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Methodology](https://img.shields.io/badge/Methodology-NIST%20800--61-orange)
+![SIEM](https://img.shields.io/badge/Tool-Microsoft%20Sentinel-0078D4)
+![Endpoint Security](https://img.shields.io/badge/Tool-Microsoft%20Defender%20for%20Endpoint-0078D4)
+![Query Language](https://img.shields.io/badge/Language-Kusto%20Query%20Language%20(KQL)-fe7d37)
+![Platform](https://img.shields.io/badge/Platform-Azure%20VMs%20(Windows%2010)-0078D4)
+
+
+---
+
+> 🛡️ *"Prevention is ideal, but resilience is mandatory. Every incident is a lesson in hardening the perimeter."*
   
